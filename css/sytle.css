@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #141414;
+}
+* {
+    box-sizing: border-box;
+}
+.ml{
+    margin-left: 5px;
+}
+.headercontainer{
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 2;
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+.iconlistcontainer{
+    right: 4%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 20px;
+}
+.listcontainer{
+    margin: 0px 10px;
+    display: flex;
+}
+.elementlist{
+    padding: 0px 10px;
+}
+.logoelement{
+    padding: 0px 20px;
+}
+.avatarmenucontainer{
+    padding: 0px 20px;
+    flex-direction: row;
+    display: flex;
+}
+.logocontainer{
+    width: 79px;
+    height: 25px;
+    margin: 10px 20px;
+}
+.avatarcontainer{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: row;
+    margin: 0;
+}
+.h3pngcontainer{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    z-index: -1;
+}
+.video {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.video-description {
+    justify-content: center;
+    color: white;
+    position: absolute;
+    left: 10px;
+    bottom: 30%;
+    width: 25%;
+    padding: 30px 20px 30px;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.video-description h1 {
+    font-size: 39px;
+}
+
+.content-series {
+    display: flex;
+    justify-content: space-around;
+}
+
+.series {
+    width: 310px;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.series:nth-child(odd) {
+    background-color: red;
+}
+
+.series:nth-child(even) {
+    background-color: blue;
+}
+.btns{
+    text-shadow: none;
+    display: flex;
+    text-decoration: none;
+}
+.btnplay{
+    margin: 5px;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+.btninfo{
+    margin: 5px;    
+    padding: 10px 30px;
+    background-color: rgba(109,109,110,0.7);
+    color: white;
+    border-radius: 4px;
+}
+.mr{
+    margin-right: 5px;
+}
+.clascontainer{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 35%;
+    right: 0;
+}
+.mutecontainer{
+    padding: 5px;
+    border-radius: 200px;
+    border: solid white 1px;
+    height: 100%;
+}
+.clastext{
+    margin-left: 15px;
+    background-color: rgba(51,51,51,.6);
+    padding: 5px 35px 5px 8px;
+    border: solid 3px #dcdcdc;
+    border-style: none none none solid;
+}
+.titseries{
+    z-index: 2;
+    margin-bottom: 30px;
+}
+.contenedors{
+    padding: 0px 0px 0px 30px;
+    font-size: 22px;
+    color: white;
+    margin-top: -120px;
+}
